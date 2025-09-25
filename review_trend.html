@@ -100,6 +100,7 @@
         {x: trend.map(t=>t.date), y: trend.map(t=>t.avg), type:"scatter", mode:"lines+markers", name:"Avg Rating", yaxis:"y2"}
       ], {
         title:"Number of Reviews & Avg Rating Over Time",
+		xaxis:{title: "Time Period"}, 
         yaxis:{title:"Reviews"},
         yaxis2:{title:"Avg Rating", overlaying:"y", side:"right", range:[0,5]},
         hovermode:"x unified"
@@ -107,4 +108,5 @@
     }
   </script>
 </body>
+
 </html>
