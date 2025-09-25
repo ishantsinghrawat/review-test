@@ -110,9 +110,9 @@ function drawPlot(data, highlightCluster = null) {
   Plotly.newPlot("plot", traces, {
     title: "3D Semantic Clustering of Reviews",
     scene: {
-      xaxis: { title: "UMAP 1" },
-      yaxis: { title: "UMAP 2" },
-      zaxis: { title: "UMAP 3" }
+      xaxis: { title: "X-axis" },
+      yaxis: { title: "Y-axis" },
+      zaxis: { title: "Z-axis" }
     },
     legend: { title: { text: "Clusters" }, orientation: "h" }
   });
@@ -199,4 +199,5 @@ function escapeHtml(text) {
 }
 </script>
 </body>
+
 </html>
