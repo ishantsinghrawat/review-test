@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <title>Reviews Analysis</title>
+  <title>Reviews Analysis v1.0</title>
   <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
   <style>
     body { font-family: Arial, sans-serif; margin: 20px; }
@@ -30,7 +30,7 @@
     <a href="avg_rating.html">⭐ Avg Rating by Version</a>
   </div>
 
-  <h2>Reviews Analysis</h2>
+  <h2>Reviews Analysis v1.0</h2>
 
   <div id="controls">
     <label for="clusterFilter"><b>Filter by Cluster:</b></label>
@@ -108,7 +108,7 @@ function drawPlot(data, highlightCluster = null) {
   });
 
   Plotly.newPlot("plot", traces, {
-    title: "3D Semantic Clustering of Reviews",
+    title: "GMA v9.105.3",
     scene: {
       xaxis: { title: "X-axis" },
       yaxis: { title: "Y-axis" },
@@ -201,3 +201,4 @@ function escapeHtml(text) {
 </body>
 
 </html>
+
