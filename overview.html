@@ -175,7 +175,7 @@ function drawChart() {
 
   const layout = {
     title: 'Topics vs Count',
-    margin: {l:40,r:10,t:50,b:80}
+    margin: {l:40,r:10,t:50,b:80},
     xaxis: { title: "Review Category" },
     yaxis: { title: "Count of Reviews" },
   };
@@ -241,6 +241,7 @@ fetch(DATA_URL).then(r => r.json()).then(data => {
 </script>
 </body>
 </html>
+
 
 
 
