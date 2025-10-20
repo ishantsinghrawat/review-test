@@ -174,8 +174,10 @@ function drawChart() {
   }];
 
   const layout = {
-    title: 'Category Volume',
+    title: 'Topics vs Count',
     margin: {l:40,r:10,t:50,b:80}
+    xaxis: { title: "Review Category" },
+    yaxis: { title: "Count of Reviews" },
   };
 
   Plotly.newPlot('chart', data, layout, {displayModeBar:false});
@@ -239,5 +241,6 @@ fetch(DATA_URL).then(r => r.json()).then(data => {
 </script>
 </body>
 </html>
+
 
 
