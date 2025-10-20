@@ -162,9 +162,9 @@ function drawChart() {
   const layout = {
     barmode: 'group',
     title: 'Sentiment by Category',
-    xaxis: { title: "Sentiments" },
-    yaxis: { title: "Count of Reviews" },
-    margin: {l:40,r:10,t:50,b:80}
+    margin: {l:40,r:10,t:50,b:80},
+    xaxis: {title: "Sentiments" },
+    yaxis: {title: "Count of Reviews" }
   };
   Plotly.newPlot('chart', traces, layout, {displayModeBar:false});
 
@@ -223,6 +223,7 @@ fetch(DATA_URL).then(r => r.json()).then(data => {
 </body>
 
 </html>
+
 
 
 
